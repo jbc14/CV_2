@@ -105,8 +105,50 @@ header .button a {
 }
 
 header .button:hover a {
-    background: #b3aca7;
-    color: #e2dedb;
-    transition: 0.2s ease-in-out;
-    text-decoration: none;
+  background: #b3aca7;
+  color: #e2dedb;
+  transition: 0.2s ease-in-out;
+  text-decoration: none;
 }
+
+/* LANGAGES */
+
+#langages {
+  padding: 80px;
+  margin: 20px 0 0 6%;
+  height: 460px;
+  width: 47%;
+  max-width: 640px;
+  min-width: 450px;
+  background: rgba(255, 128, 0, 0.88);
+  background: linear-gradient(
+    293deg,
+    rgba(255, 128, 0, 0.88) 0%,
+    rgba(251, 149, 45, 0.66) 20%,
+    rgba(255, 184, 112, 0.62) 40%,
+    rgba(255, 210, 165, 0.44) 99%
+  );
+  background: -webkit-linear-gradient(
+    293deg,
+    rgba(255, 128, 0, 0.88) 0%,
+    rgba(251, 149, 45, 0.66) 20%,
+    rgba(255, 184, 112, 0.62) 40%,
+    rgba(255, 210, 165, 0.44) 99%
+  );
+  background: -moz-linear-gradient(
+    293deg,
+    rgba(255, 128, 0, 0.88) 0%,
+    rgba(251, 149, 45, 0.66) 20%,
+    rgba(255, 184, 112, 0.62) 40%,
+    rgba(255, 210, 165, 0.44) 99%
+  );
+  clip-path: polygon(0 9%, 100% 0, 88% 100%, 0 90%);
+}
+
+#langages .bar{
+  padding: 10px 0 4px 0;
+  letter-spacing: 0.1em;
+}
+
+/* 
+1:30:04 */
